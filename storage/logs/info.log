@@ -1,0 +1,49 @@
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 total_num=10 total_money=0.1 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=1 money=0.01 is_best=** 手气最佳 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 is_best= money_id=2 money=0.01 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=3 money=0.01 is_best= 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=4 money=0.01 is_best= 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=5 money=0.01 is_best= 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 is_best= money_id=6 money=0.01 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=7 money=0.01 is_best= 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=8 money=0.01 is_best= 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money=0.01 is_best= money_id=9 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 money_id=10 money=0.01 is_best= 
+time=2021-01-02 16:31:21 level=info function=Wxreward title=协程测试微信发红包 info=----------------------- 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 total_num=35 total_money=50.49 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=1 money=0.44 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=2 money=2.18 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money=2.77 is_best=** 手气最佳 money_id=3 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=4 money=1.03 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money=0.72 is_best= money_id=5 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=6 money=1.57 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=7 money=2.56 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=8 money=1.15 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=9 money=0.69 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=10 money=2.13 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=11 money=0.28 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=12 money=0.3 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money=2.42 is_best= money_id=13 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 is_best= money_id=14 money=2.13 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money=2.61 is_best= money_id=15 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=16 money=0.33 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=17 money=2.05 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 is_best= money_id=18 money=0.7 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=19 money=0.41 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=20 money=2.55 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=21 money=2.63 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=22 money=0.34 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=23 money=1.25 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=24 money=2.1 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=25 money=0.81 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=26 money=2.14 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=27 money=1.48 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 is_best= money_id=28 money=2.17 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 is_best= money_id=29 money=0.28 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=30 money=2.65 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money=2.17 is_best= money_id=31 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money=0.32 is_best= money_id=32 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=33 money=2.01 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=34 money=0.06 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 money_id=35 money=1.06 is_best= 
+time=2021-01-02 16:32:51 level=info function=Wxreward title=协程测试微信发红包 info=----------------------- 

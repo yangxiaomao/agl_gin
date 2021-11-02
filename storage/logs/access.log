@@ -1,0 +1,2232 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/25 - 17:51:46 | 200 | 17.255989116s |   192.168.20.32 | POST     "/rsaapi/user/register"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/25 - 17:53:37 | 200 |     287.425µs |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/25 - 18:00:54 | 200 |     161.088µs |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN] 2020/12/25 - 18:01:07 | 200 |     377.786µs |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN] 2020/12/25 - 18:01:42 | 200 | 19.538989528s |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN] 2020/12/25 - 18:06:04 | 200 |  42.66940316s |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/25 - 18:20:22 | 200 |     206.242µs |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN] 2020/12/25 - 18:20:52 | 200 | 14.111616669s |   192.168.20.32 | POST     "/rsaapi/user/login"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.tpl
+	- 
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.tpl
+	- 
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 10:45:44 | 200 | 10.000498903s |   192.168.20.32 | POST     "/rsaapi/test/graceShutdown"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 10:46:44 | 200 | 10.001092551s |   192.168.20.32 | POST     "/rsaapi/test/graceShutdown"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 10:49:16 | 200 | 10.000555522s |   192.168.20.32 | POST     "/rsaapi/test/graceShutdown"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 17:25:59 | 200 |      78.927µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/28 - 18:04:47 | 200 |      92.058µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 18:05:09 | 200 |  10.00060975s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 18:09:39 | 200 | 10.000438101s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 18:10:42 | 200 | 10.003509196s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 18:11:42 | 200 | 10.000660141s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 18:17:08 | 200 | 10.001041976s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/28 - 18:17:23 | 200 | 10.000620748s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 19:18:27 | 200 |      152.69µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 19:32:46 | 200 | 18.774588056s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 19:34:35 | 200 | 31.446676702s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 19:36:17 | 200 |  9.640671129s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 19:49:14 | 200 |  5.989301592s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/28 - 20:04:52 | 200 | 22.960481948s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.tpl
+	- 
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/29 - 10:30:31 | 200 | 10.003922854s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/29 - 10:45:05 | 200 |     125.185µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/29 - 10:45:34 | 200 |  5.001213241s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/29 - 10:50:18 | 200 |  5.000286673s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/29 - 10:56:42 | 200 |         1m54s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/29 - 11:28:06 | 200 |  6.631917583s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/29 - 11:28:39 | 200 |   1.87758365s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/30 - 18:12:28 | 200 |     720.908µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:12:39 | 200 |    3.850824ms |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/30 - 18:13:43 | 200 |     616.817µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:13:56 | 200 |     272.236µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:00 | 200 |       94.72µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:09 | 200 |     135.271µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:18 | 200 |      90.708µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:19 | 200 |     122.104µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:20 | 200 |      98.061µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:35 | 200 |     326.969µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN] 2020/12/30 - 18:14:43 | 200 |      96.462µs |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/30 - 18:33:15 | 200 |  3.004320847s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2020/12/30 - 18:37:16 | 200 |  3.005449211s |   192.168.20.32 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/01 - 22:19:54 | 200 | 10.006836015s |   192.168.1.101 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/01 - 22:22:40 | 200 | 10.005923807s |   192.168.1.101 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/01 - 22:23:23 | 200 | 10.006633702s |   192.168.1.101 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/01 - 22:23:54 | 200 |     189.629µs |   192.168.1.101 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 14:58:34 | 200 |  1.312508062s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN] 2021/01/02 - 16:23:57 | 200 |  1.853378261s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.tpl
+	- 
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 16:31:21 | 200 |     805.197µs |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN] 2021/01/02 - 16:32:51 | 200 |    1.239808ms |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.tpl
+	- 
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 20:02:29 | 200 |  5.296592815s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN] 2021/01/02 - 20:02:58 | 200 |  5.486552136s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 20:09:56 | 200 | 32.075775164s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 20:11:03 | 200 | 13.822729865s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 20:12:40 | 200 | 15.890304574s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 20:25:47 | 200 | 10.008754198s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/02 - 20:27:29 | 200 | 10.023334295s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN] 2021/01/02 - 20:28:41 | 200 | 10.009273128s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN] 2021/01/02 - 20:29:54 | 200 | 10.010083599s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN] 2021/01/02 - 20:30:33 | 200 | 10.006953228s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/07 - 22:31:42 | 200 |      90.616µs |   192.168.1.101 | POST     "/rsaapi/test/concurrent"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- index.tpl
+	- 
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)
+[GIN] 2021/01/07 - 22:42:13 | 200 | 10.013714077s |   192.168.1.101 | POST     "/rsaapi/test/wxreward"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tpl
+
+[GIN-debug] GET    /debug/pprof/             --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/cmdline      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/profile      --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] POST   /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/symbol       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/trace        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/allocs       --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/block        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/goroutine    --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/heap         --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/mutex        --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /debug/pprof/threadcreate --> github.com/gin-contrib/pprof.pprofHandler.func1 (1 handlers)
+[GIN-debug] GET    /api/test/index           --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/index                --> gin/controllers.IndexApi (8 handlers)
+[GIN-debug] GET    /web/cookie/set/:userid   --> gin/controllers.CookieSetExample (8 handlers)
+[GIN-debug] GET    /web/orm                  --> gin/controllers.OrmExample (9 handlers)
+[GIN-debug] GET    /web/store                --> gin/controllers.StoreExample (9 handlers)
+[GIN-debug] GET    /web/db                   --> gin/controllers.DBExample (9 handlers)
+[GIN-debug] GET    /web/cookie/get           --> gin/controllers.CookieGetExample (9 handlers)
+[GIN-debug] GET    /api/jwt/set/:userid      --> gin/controllers.JwtSetExample (8 handlers)
+[GIN-debug] POST   /api/rsa/set/decrypt      --> gin/controllers.RsaDecrypt (8 handlers)
+[GIN-debug] POST   /api/redis/set/user_info  --> gin/controllers.UserInfoSetRedis (8 handlers)
+[GIN-debug] POST   /api/redis/set/redis_test --> gin/controllers.RedisTest (8 handlers)
+[GIN-debug] POST   /api/jwt/get              --> gin/controllers.JwtGetExample (9 handlers)
+[GIN-debug] POST   /rsaapi/rsa/set/encrypt   --> gin/controllers.RsaEncrypt (8 handlers)
+[GIN-debug] POST   /rsaapi/user/register     --> gin/controllers.UserRegister (8 handlers)
+[GIN-debug] POST   /rsaapi/user/login        --> gin/controllers.UserLogin (8 handlers)
+[GIN-debug] POST   /rsaapi/test/graceShutdown --> gin/controllers.GraceShutdown (8 handlers)
+[GIN-debug] POST   /rsaapi/test/concurrent   --> gin/controllers.Concurrent (8 handlers)
+[GIN-debug] POST   /rsaapi/test/wxreward     --> gin/controllers.Wxreward (8 handlers)
+[GIN-debug] POST   /rsaapi/rsa/getuser       --> gin/controllers.GetUserInfo (9 handlers)

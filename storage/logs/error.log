@@ -1,0 +1,1150 @@
+
+[2020-12-22 10:32:36] app.ERROR: runtime error: invalid memory address or nil pointer dereference
+Stack trace:
+goroutine 21 [running]:
+runtime/debug.Stack(0xe42420, 0xc000236d60, 0xd3dae8)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0x9f
+gin/modules/log.Error(0xc58ce0, 0x12c5780)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x26e
+main.handleErrors.func1.1(0xc00026ce10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x70
+panic(0xc58ce0, 0x12c5780)
+	/usr/lib/golang/src/runtime/panic.go:969 +0x175
+gin/controllers.RedisTest(0xc00026ce10)
+	/home/wwwroot/go/src/aglgin/controllers/RedisController.go:119 +0x4d6
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00026ce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00026ce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-contrib/cache.Cache.func1(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x65
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x186
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+main.handleErrors.func1(0xc00026ce10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x4e
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0xe5
+github.com/gin-gonic/gin.(*Context).Next(0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0003317c0, 0xc00026ce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x67a
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0003317c0, 0xe52080, 0xc0003f00e0, 0xc00038bf00)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d
+net/http.serverHandler.ServeHTTP(0xc0003f0000, 0xe52080, 0xc0003f00e0, 0xc00038bf00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00032f860, 0xe54880, 0xc0003d2dc0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x36c
+
+
+[2020-12-22 10:34:59] app.ERROR: runtime error: invalid memory address or nil pointer dereference
+Stack trace:
+goroutine 25 [running]:
+runtime/debug.Stack(0xe42400, 0xc0002cabc0, 0xd3dae8)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0x9f
+gin/modules/log.Error(0xc58ce0, 0x12c5780)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x26e
+main.handleErrors.func1.1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x70
+panic(0xc58ce0, 0x12c5780)
+	/usr/lib/golang/src/runtime/panic.go:969 +0x175
+gin/controllers.RedisTest(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/controllers/RedisController.go:119 +0x4d6
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-contrib/cache.Cache.func1(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x65
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x186
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+main.handleErrors.func1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x4e
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0xe5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0000a97c0, 0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x67a
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0000a97c0, 0xe52060, 0xc00041c000, 0xc00039de00)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d
+net/http.serverHandler.ServeHTTP(0xc0000c81c0, 0xe52060, 0xc00041c000, 0xc00039de00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc0003e8b40, 0xe54860, 0xc0003e0680)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x36c
+
+
+[2020-12-22 10:35:28] app.ERROR: runtime error: invalid memory address or nil pointer dereference
+Stack trace:
+goroutine 27 [running]:
+runtime/debug.Stack(0xe42400, 0xc0002cabc0, 0xd3dae8)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0x9f
+gin/modules/log.Error(0xc58ce0, 0x12c5780)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x26e
+main.handleErrors.func1.1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x70
+panic(0xc58ce0, 0x12c5780)
+	/usr/lib/golang/src/runtime/panic.go:969 +0x175
+gin/controllers.RedisTest(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/controllers/RedisController.go:119 +0x4d6
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-contrib/cache.Cache.func1(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x65
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x186
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+main.handleErrors.func1(0xc0002fee10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x4e
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0xe5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0000a97c0, 0xc0002fee10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x67a
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0000a97c0, 0xe52060, 0xc00041c0e0, 0xc00041e300)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d
+net/http.serverHandler.ServeHTTP(0xc0000c81c0, 0xe52060, 0xc00041c0e0, 0xc00041e300)
+	/usr/lib/golang/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc0003e8c80, 0xe54860, 0xc0003e08c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x36c
+
+
+[2020-12-22 10:39:48] app.ERROR: runtime error: invalid memory address or nil pointer dereference
+Stack trace:
+goroutine 12 [running]:
+runtime/debug.Stack(0xe42400, 0xc0002cad20, 0xd3dae8)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0x9f
+gin/modules/log.Error(0xc58ce0, 0x12c5780)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x26e
+main.handleErrors.func1.1(0xc00042e000)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x70
+panic(0xc58ce0, 0x12c5780)
+	/usr/lib/golang/src/runtime/panic.go:969 +0x175
+gin/controllers.RedisTest(0xc00042e000)
+	/home/wwwroot/go/src/aglgin/controllers/RedisController.go:119 +0x4d6
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00042e000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00042e000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-contrib/cache.Cache.func1(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x65
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x186
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+main.handleErrors.func1(0xc00042e000)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x4e
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0xe5
+github.com/gin-gonic/gin.(*Context).Next(0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0000e9b80, 0xc00042e000)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x67a
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0000e9b80, 0xe52060, 0xc0000f42a0, 0xc0000a0a00)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d
+net/http.serverHandler.ServeHTTP(0xc0000f41c0, 0xe52060, 0xc0000f42a0, 0xc0000a0a00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00040a8c0, 0xe54860, 0xc00007f8c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x36c
+
+
+[2020-12-22 10:46:25] app.ERROR: runtime error: invalid memory address or nil pointer dereference
+Stack trace:
+goroutine 22 [running]:
+runtime/debug.Stack(0xe42400, 0xc00000e540, 0xd3dae8)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0x9f
+gin/modules/log.Error(0xc58ce0, 0x12c5780)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x26e
+main.handleErrors.func1.1(0xc0000cce10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x70
+panic(0xc58ce0, 0x12c5780)
+	/usr/lib/golang/src/runtime/panic.go:969 +0x175
+gin/controllers.RedisTest(0xc0000cce10)
+	/home/wwwroot/go/src/aglgin/controllers/RedisController.go:120 +0x4e7
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0000cce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0000cce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xb4
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-contrib/cache.Cache.func1(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x65
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x186
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+main.handleErrors.func1(0xc0000cce10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x4e
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0xe5
+github.com/gin-gonic/gin.(*Context).Next(0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0003e6280, 0xc0000cce10)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x67a
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0003e6280, 0xe52060, 0xc0003cc2a0, 0xc00037b500)
+	/home/wwwroot/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0x14d
+net/http.serverHandler.ServeHTTP(0xc0003cc1c0, 0xe52060, 0xc0003cc2a0, 0xc00037b500)
+	/usr/lib/golang/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc0002cefa0, 0xe54860, 0xc0003f8680)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x36c
+
+
+[2020-12-22 10:54:19] app.ERROR: runtime error: invalid memory address or nil pointer dereference
+Stack trace:
+goroutine 25 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf78580, 0x1501760)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002f4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf78580, 0x1501760)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.RedisTest(0xc0002f4e10)
+	/home/wwwroot/go/src/aglgin/controllers/RedisController.go:120 +0x6e7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002f4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002f4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:38 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002f4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000380280, 0xc0002f4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000380280, 0x10feea0, 0xc0003b20e0, 0xc000393c00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc00041a0e0, 0x10feea0, 0xc0003b20e0, 0xc000393c00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003772c0, 0x1101020, 0xc00039e700)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 17:55:18] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 13 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003fa000)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003fa000)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc0003d81c0, 0xc00036f000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc0003d81c0, 0xc00036f000)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003c2280, 0x1109d20, 0xc0003755c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 17:57:11] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 14 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003fa420)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003fa420)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc0003d82a0, 0xc00036f100)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc0003d82a0, 0xc00036f100)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003c2320, 0x1109d20, 0xc0003756c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 17:58:12] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 15 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003fa840)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003fa840)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc0003d8380, 0xc00036f200)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc0003d8380, 0xc00036f200)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003c23c0, 0x1109d20, 0xc0003757c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:03:40] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 16 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003fac60)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003fac60)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002c4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc0002c4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc0003d8460, 0xc00036f300)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc0003d8460, 0xc00036f300)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003c2460, 0x1109d20, 0xc0003758c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:04:07] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 28 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc00041ca80)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc00041ca80)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc000428000)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc000276380, 0xc000139d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc000276380, 0xc000139d00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc000414320, 0x1109d20, 0xc00041a340)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:08:09] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 29 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc00041cea0)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc00041cea0)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc000428000)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc000276460, 0xc000139e00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc000276460, 0xc000139e00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0004143c0, 0x1109d20, 0xc00041a440)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:08:21] app.ERROR: interface conversion: interface {} is bool, not map[string]interface {}
+Stack trace:
+goroutine 30 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003fa0f0)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003fa0f0)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc000428000)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc000428000)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000263400, 0xc000428000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000263400, 0x1107b60, 0xc000276540, 0xc000139f00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003d8000, 0x1107b60, 0xc000276540, 0xc000139f00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc000414460, 0x1109d20, 0xc00041a540)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:21:56] app.ERROR: interface conversion: interface {} is map[string]string, not map[string]interface {}
+Stack trace:
+goroutine 26 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003483f0)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003483f0)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc00027ce10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0004263c0, 0xc00027ce10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0004263c0, 0x1107b20, 0xc000354000, 0xc00031bc00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0003fe1c0, 0x1107b20, 0xc000354000, 0xc00031bc00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0002ff400, 0x1109ce0, 0xc000324640)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:28:04] app.ERROR: interface conversion: interface {} is map[string]string, not map[string]interface {}
+Stack trace:
+goroutine 24 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc000286ff0)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc000286ff0)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002ee000)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0002bc000, 0xc0002ee000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0002bc000, 0x1107b20, 0xc0002ba1c0, 0xc0002cc400)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0002ba0e0, 0x1107b20, 0xc0002ba1c0, 0xc0002cc400)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0002d60a0, 0x1109ce0, 0xc0002b4940)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:34:19] app.ERROR: interface conversion: interface {} is map[string]string, not map[string]interface {}
+Stack trace:
+goroutine 10 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc000392840)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc000392840)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000362280, 0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000362280, 0x1107b40, 0xc0003900e0, 0xc000375c00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc00043e0e0, 0x1107b40, 0xc0003900e0, 0xc000375c00)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc000357360, 0x1109d00, 0xc00037e7c0)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 18:59:32] app.ERROR: interface conversion: interface {} is map[string]string, not map[string]interface {}
+Stack trace:
+goroutine 12 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc000392f30)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc000392f30)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000362280, 0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000362280, 0x1107b40, 0xc0003902a0, 0xc0003c2300)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc00043e0e0, 0x1107b40, 0xc0003902a0, 0xc0003c2300)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003574a0, 0x1109d00, 0xc00037ea80)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 19:00:32] app.ERROR: interface conversion: interface {} is map[string]string, not map[string]interface {}
+Stack trace:
+goroutine 13 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003932f0)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003932f0)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000362280, 0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000362280, 0x1107b40, 0xc000390380, 0xc0003c2400)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc00043e0e0, 0x1107b40, 0xc000390380, 0xc0003c2400)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc000357540, 0x1109d00, 0xc00037eb80)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-22 19:01:01] app.ERROR: interface conversion: interface {} is map[string]string, not map[string]interface {}
+Stack trace:
+goroutine 14 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf87500, 0xc0003936b0)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf87500, 0xc0003936b0)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+gin/controllers.GetUserInfo(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/controllers/UserController.go:47 +0x3ff
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RsaMiddleware.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:75 +0xa5
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0002d4e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000362280, 0xc0002d4e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000362280, 0x1107b40, 0xc000390460, 0xc0003c2500)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc00043e0e0, 0x1107b40, 0xc000390460, 0xc0003c2500)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003575e0, 0x1109d00, 0xc00037ec80)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
+
+[2020-12-24 11:08:42] app.ERROR: invalid WriteHeader code 10001
+Stack trace:
+goroutine 9 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+	/usr/lib/golang/src/runtime/debug/stack.go:24 +0xa5
+gin/modules/log.Error(0xf4dde0, 0xc0002cdc30)
+	/home/wwwroot/go/src/aglgin/modules/log/log.go:104 +0x42e
+main.handleErrors.func1.1(0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/handle.go:24 +0x78
+panic(0xf4dde0, 0xc0002cdc30)
+	/usr/lib/golang/src/runtime/panic.go:975 +0x414
+net/http.checkWriteHeaderCode(0x2711)
+	/usr/lib/golang/src/net/http/server.go:1110 +0x16d
+net/http.(*response).WriteHeader(0xc0003d6000, 0x2711)
+	/usr/lib/golang/src/net/http/server.go:1144 +0x51b
+github.com/gin-gonic/gin.(*responseWriter).WriteHeaderNow(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/response_writer.go:72 +0x84
+github.com/gin-gonic/gin.(*responseWriter).WriteString(0xc0000c6e10, 0x1077c1c, 0xc, 0x0, 0x0, 0x0)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/response_writer.go:84 +0x49
+io.WriteString(0x7fd327cbf668, 0xc0000c6e10, 0x1077c1c, 0xc, 0x0, 0x0, 0x0)
+	/usr/lib/golang/src/io/io.go:295 +0x108
+github.com/gin-gonic/gin/render.WriteString(0x7fd2fe99d8d8, 0xc0000c6e10, 0x1077c1c, 0xc, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/render/text.go:38 +0x1d0
+github.com/gin-gonic/gin/render.String.Render(0x1077c1c, 0xc, 0x0, 0x0, 0x0, 0x7fd2fe99d8d8, 0xc0000c6e10, 0x0, 0x0)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/render/text.go:23 +0x85
+github.com/gin-gonic/gin.(*Context).Render(0xc0000c6e10, 0x2711, 0x110a6a0, 0xc0004187e0)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:841 +0xf9
+github.com/gin-gonic/gin.(*Context).String(0xc0000c6e10, 0x2711, 0x1077c1c, 0xc, 0x0, 0x0, 0x0)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:917 +0xc5
+gin/service.UserRegisterService.func1(0xc0003b8680, 0xc0003face8, 0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/service/loginService.go:46 +0xa7
+gin/service.UserRegisterService(0xc0000c6e10, 0x0, 0xc0003b4a20, 0x20, 0xc00033dac0, 0xb, 0xc0003b4a40, 0x20, 0x107a4bb, 0x10, ...)
+	/home/wwwroot/go/src/aglgin/service/loginService.go:53 +0x394
+gin/controllers.UserRegister(0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/controllers/LoginController.go:34 +0x298
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+gin/filters/auth.RegisterGlobalAuthDriver.func1(0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/filters/auth/auth.go:40 +0xd7
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-contrib/cache.Cache.func1(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-contrib/cache@v1.1.0/cache.go:128 +0x6d
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/contrib/sessions.Sessions.func1(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/contrib@v0.0.0-20201101042839-6a891bf89f19/sessions/sessions.go:65 +0x257
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+main.handleErrors.func1(0xc0000c6e10)
+	/home/wwwroot/go/src/aglgin/handle.go:52 +0x5d
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.LoggerWithConfig.func1(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/logger.go:241 +0x105
+github.com/gin-gonic/gin.(*Context).Next(0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/context.go:161 +0x8f
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc0002e5400, 0xc0000c6e10)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:409 +0x468
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc0002e5400, 0x110f980, 0xc0003d6000, 0xc000373100)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.6.3/gin.go:367 +0xdd
+net/http.serverHandler.ServeHTTP(0xc0002f61c0, 0x110f980, 0xc0003d6000, 0xc000373100)
+	/usr/lib/golang/src/net/http/server.go:2843 +0x22b
+net/http.(*conn).serve(0xc0003ca1e0, 0x1111b40, 0xc00037cd80)
+	/usr/lib/golang/src/net/http/server.go:1925 +0x1805
+created by net/http.(*Server).Serve
+	/usr/lib/golang/src/net/http/server.go:2969 +0x970
+
