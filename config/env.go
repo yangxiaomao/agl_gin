@@ -19,9 +19,9 @@ var env = Env{
 
 	Database: mysql.Config{
 		User:                 "root",
-		Passwd:               "123456",
+		Passwd:               "root",
 		Addr:                 "127.0.0.1:3306",
-		DBName:               "db_gin",
+		DBName:               "agl_gin",
 		Collation:            "utf8mb4_unicode_ci",
 		Net:                  "tcp",
 		AllowNativePasswords: true,
